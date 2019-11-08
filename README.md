@@ -1,1 +1,1 @@
-# go
+## This is a set of POC go programs from the book "The Go Programming Language"
