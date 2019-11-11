@@ -1,16 +1,17 @@
-package echo
+package main
 
 import (
 	"flag"
 	"fmt"
 	"strings"
-	"tgpl/ch2/test_folder_module"
+
+	test_folder_module "github.com/oth_packs"
 )
 
 var n = flag.Bool("n", false, "ommit trailing newline")
 var sep = flag.String("s", " ", "separator")
 
-func Echo() {
+func main() {
 	flag.Parse()
 	fmt.Println(strings.Join(flag.Args(), *sep))
 	if !*n {

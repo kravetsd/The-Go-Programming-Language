@@ -18,7 +18,7 @@ func main() {
 }
 
 func echo3() {
-	fl, err := os.Open("./some.csv")
+	fl, err := os.Open(".ch1/some.csv")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "echo2: %v\n", err)
 	}
