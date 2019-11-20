@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"strings"
-	test_folder_module "tgpl-github/oth_packs"
+	"tgpl-github/testfoldermodule"
 )
 
 var n = flag.Bool("n", false, "ommit trailing newline")
@@ -16,7 +16,7 @@ func main() {
 	if !*n {
 		fmt.Println()
 	}
-	test_folder_module.Subecho()
+	testfoldermodule.Subecho()
 
 }
 
@@ -25,5 +25,4 @@ func Hello() string {
 	//There is a comment just to fix syntax of the golang
 	s := "Hello wotld!"
 	return s
-
 }

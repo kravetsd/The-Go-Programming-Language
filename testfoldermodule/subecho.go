@@ -1,6 +1,7 @@
-package test_folder_module
+package testfoldermodule
 
 func Subecho() string {
+	//comment here
 	return "Hi from sub folder!"
 
 }
